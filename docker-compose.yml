@@ -2,8 +2,10 @@
 # See https://github.com/dopos/dcape
 
 services:
-  # This service will extend code from dcape
   app:
+    user: 1000:1000
+    volumes:
+      - ./data:/wiki/data
     environment:
-      # Some var to keep YML struct
-      - DEBUG=yes
+      - PUID=1000
+      - PGID=1000

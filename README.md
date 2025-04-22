@@ -1,19 +1,19 @@
-# dcape-app-template
+# dcape-app-wiki-go
 
 [![GitHub Release][1]][2] [![GitHub code size in bytes][3]]() [![GitHub license][4]][5]
 
-[1]: https://img.shields.io/github/release/dopos/dcape-app-template.svg
-[2]: https://github.com/dopos/dcape-app-template/releases
-[3]: https://img.shields.io/github/languages/code-size/dopos/dcape-app-template.svg
-[4]: https://img.shields.io/github/license/dopos/dcape-app-template.svg
+[1]: https://img.shields.io/github/release/dopos/dcape-app-wiki-go.svg
+[2]: https://github.com/dopos/dcape-app-wiki-go/releases
+[3]: https://img.shields.io/github/languages/code-size/dopos/dcape-app-wiki-go.svg
+[4]: https://img.shields.io/github/license/dopos/dcape-app-wiki-go.svg
 [5]: LICENSE
 
-[upstream_name](https://upstream_url) application package for [dcape](https://github.com/dopos/dcape).
+[wiki-go](https://wikigo.leomoon.com/) application package for [dcape](https://github.com/dopos/dcape).
 
 ## Upstream
 
-* Project: [upstream_name](https://upstream_url)
-* Docker: [template](https://hub.docker.com/r/template)
+* Project: [wiki-go](https://wikigo.leomoon.com/)
+* Docker: [wiki-go](https://hub.docker.com/r/leomoonstudios/wiki-go)
 
 ## Requirements
 
@@ -38,8 +38,8 @@
 
 Run commands on deploy host with [dcape](https://github.com/dopos/dcape) installed:
 ```bash
-git clone https://github.com/dopos/dcape-app-template.git
-cd dcape-app-template
+git clone https://github.com/dopos/dcape-app-wiki-go.git
+cd dcape-app-wiki-go
 make config-if
 ... <edit .env>
 make up
@@ -47,6 +47,6 @@ make up
 
 ## License
 
-Copyright 2024 Aleksei Kovrizhkin <lekovr+dopos@gmail.com>
+Copyright 2025 Aleksei Kovrizhkin <lekovr+dopos@gmail.com>
 
 Licensed under the Apache License, Version 2.0 (the "[License](LICENSE)");
